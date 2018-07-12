@@ -39,7 +39,7 @@ class Family
     public $_type;         // 0=patriarch, 1=martriarch
 
     // constructor, initialize variables
-    public function __construct($famtype)
+    public function Family($famtype)
     {
         $this->_type = $famtype;
         $this->MemberCount = 0;
