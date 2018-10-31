@@ -30,6 +30,7 @@ if (array_key_exists('PersonID', $_GET)) {
 } else {
     $iPersonID = 0;
 }
+error_log($iPersonID);
 
 $sPreviousPage = '';
 if (array_key_exists('previousPage', $_GET)) {
